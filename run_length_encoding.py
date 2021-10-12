@@ -18,7 +18,6 @@ def decode(string):
         x += str(k)
         x += string[i]
     return (x)
-
 def encode(string):
     l = len(string)
     h = ''
