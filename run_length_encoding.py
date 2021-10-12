@@ -1,4 +1,4 @@
-ef decode(string):
+def decode(string):
     x = ""
     k = 1
     l1 = len(string)
@@ -18,7 +18,6 @@ ef decode(string):
         x += str(k)
         x += string[i]
     return (x)
-
 
 def encode(string):
     l = len(string)
