@@ -1,4 +1,4 @@
-def decode(string):
+ef decode(string):
     x = ""
     k = 1
     l1 = len(string)
@@ -24,6 +24,8 @@ def encode(string):
     l = len(string)
     h = ''
     m = ''
+    if string[0].isalpha() == True:
+        h += string[1]
     for i in range(l - 1):
         if string[i].isalpha() == False:
             m += string[i]
